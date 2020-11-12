@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#044EF0;stroke-width:5.9487;stroke-miterlimit:10;}
+	.st1{fill:#F9F9F9;}
+	.st2{font-size:71.3846px;}
+	.st3{font-size:59.3664px;}
+</style>
+<g id="Laag_1">
+</g>
+<g id="Laag_2">
+	<g id="logo">
+		<rect x="62.8" y="37" class="st0" width="200.3" height="200.3"/>
+		<polyline class="st0" points="62,36 37,62.8 37,263 237.2,263 264,238 		"/>
+		<polyline class="st0" points="161.9,37 161.9,237.2 137.3,261.9 		"/>
+		<polyline class="st0" points="263,137.1 62.8,137.1 38.2,161.6 		"/>
+		<line class="st0" x1="62.8" y1="237.2" x2="37" y2="263"/>
+		<text transform="matrix(1 0 0 1 97.9971 114.7822)" class="st1 st2">P</text>
+		<text transform="matrix(1 0 0 1 88.083 213.9287)" class="st1 st2">M</text>
+		<text transform="matrix(1 0 0 1 195.1611 114.7822)" class="st1 st2">G</text>
+		<text transform="matrix(1 0 0 1 176.7119 209.6768)" class="st1 st3">&lt;/&gt;</text>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,41 @@
+button {
+    margin-bottom: 1rem;
+    width: 180px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    background-color: $color-blue;
+    color: $color-white;
+    border: none;
+    padding: 1rem 0;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    
+
+    outline: none;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    img {
+        width: 20px;
+    }
+
+    &:hover {
+        color: $color-black;
+        transition: .3s;
+    }
+}
+
+.nieuws, .cases {
+    button{
+        margin: 1rem auto;
+    }
+}

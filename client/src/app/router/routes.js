@@ -1,0 +1,11 @@
+export const LANDING = '/';
+export const HOME = '/home';
+export const ABOUT = '/about';
+export const CASES = '/cases';
+export const CASE_DETAIL = '/cases/:id';
+export const BLOG = '/posts';
+export const POST_DETAIL = '/posts/:id';
+export const STUDENT_DETAIL = '/students/:id';
+export const TEAM = '/team';
+export const CONTACT = '/contact';
+export const THREE = '/three';

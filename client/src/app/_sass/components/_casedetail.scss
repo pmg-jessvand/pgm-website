@@ -1,0 +1,17 @@
+.case-detail {
+    .case-content-col {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        video {
+            width: 100%;
+            outline: none;
+        }
+    }
+
+    #case-btn {
+        margin: 4rem auto 8rem auto;
+    }
+}

@@ -1,0 +1,35 @@
+.page--team {
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .staff-container{        
+        &-images {
+            position: relative;
+            margin: 0px auto 3rem auto;
+
+            img {
+                width: 100%;
+                max-height: 630px;
+                object-fit: cover;
+            }
+
+            #staffTags {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                visibility: hidden;
+                transition: ease-in-out 1s;
+            }
+
+            &:hover #staffTags {
+                visibility: visible;
+            }
+        }
+    }
+
+    .students-container {
+        margin-bottom: 3rem;
+    }
+}

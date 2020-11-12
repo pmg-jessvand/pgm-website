@@ -1,0 +1,45 @@
+.section-curriculum {
+    &-hero {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &-info {
+        .curr-option {
+            .curr-option-label {
+                border: solid 3px $color-blue;
+                width: 100%;
+                margin: 2rem 0;
+                padding: 4rem 0;
+                display: block;
+                text-align: center;
+                cursor: pointer;
+            }
+            input {
+                display: none;
+                &:checked + label{
+                    background-color: $color-blue;
+                }
+            }
+        }
+
+        .selected {
+            background-color: $color-blue;
+        }
+
+        .curr-option-body {
+            font-family: 'Montserrat';
+
+            p {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            ul {
+                list-style: inside;
+            }
+        }
+    }
+}

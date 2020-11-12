@@ -1,0 +1,62 @@
+.card {
+    margin-bottom: 3rem;
+    padding: 0px 2rem;
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+
+        &:hover {
+            color: $color-blue;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+
+    .card-image:hover:after {
+        content: '';
+        position: absolute;
+        top: -5%;
+        right: 5%;
+        bottom: 0px;
+        height: 15rem;
+        width: 80%;
+        border: solid 3px $color-blue;
+        z-index: -1;
+    }
+}
+
+.student-card {
+    // border: solid 1px red;
+    height: 300px;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    a {
+        color: $color-white;
+    }
+
+    &-name {
+        background-color: $color-blue;
+        position: absolute;
+        bottom: 30px;
+        left: 0px;
+        padding: 10px;
+    }
+}
+
+.hidden {
+    display: none;
+}

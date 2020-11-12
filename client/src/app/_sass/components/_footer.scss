@@ -1,0 +1,47 @@
+.footer {
+  background: $color-blue;
+  padding: $grid-gutter-width;
+
+  & > .container > .footer-row {
+    margin-bottom: $grid-gutter-width;
+    align-items: center;
+
+    &:last-of-type {
+        margin-bottom: 0px;
+    }
+  }
+
+  &-col {
+
+      &-socials ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+
+        a {
+            font-size: 2rem;
+            color: $color-white;
+
+            :hover {
+                color: $color-black;
+                transition: .3s;
+            }
+        }
+      }
+
+      &-info {
+          p {
+              margin-bottom: 20px;
+              font-weight: 300;
+          }
+      }
+  }
+
+  
+}
+
+@media (max-width: 720px) {
+    .footer {
+        text-align: center;
+    }
+}

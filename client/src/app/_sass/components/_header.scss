@@ -1,0 +1,53 @@
+.header {
+  width: 100vw;
+  margin-bottom: 20px;
+
+  background-color: $color-black;
+  box-shadow: lighten($color: $color-black, $amount: 20) 0px 1px;
+
+  &__hamburger {
+    display: none;
+  }
+
+  &-row {
+      align-items: center;
+      padding: 10px 0px;
+  }
+
+  &-col {
+    
+    .brand{
+        width: 100%;
+        height: $header-height;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+  }
+
+  .hamburger {
+    // border: solid 1px red;
+    // display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10%;
+
+
+    & div {
+        background-color: $color-white;
+        width: 45px;
+        height: 5px;
+        margin: 8px 0px;
+        border-radius: 8px;
+    }
+}
+}
+
+@media(min-width: 990px) {
+    .hamburger {
+        display: none;
+    }
+}

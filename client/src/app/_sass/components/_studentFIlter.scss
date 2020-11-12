@@ -1,0 +1,17 @@
+.filter {
+    margin-bottom: 2rem;
+
+    label {
+        font-size: 1.5rem;
+        margin: 2rem 1rem 2em 0;
+    }
+
+    select {
+        height: 100%;
+        outline: none;
+        background-color: $color-blue;
+        color: $color-white;
+        border: none;
+        padding: 1rem;
+    }
+}

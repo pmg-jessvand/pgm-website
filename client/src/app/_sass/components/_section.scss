@@ -1,0 +1,67 @@
+.section {
+
+    &-title {
+        margin-bottom: 2rem;
+    }
+
+    &-intro {
+        margin-bottom: 5rem;
+        
+
+        .intro-info-col {   
+            
+            .intro-info {
+                align-items: center;
+                margin-bottom: 2rem;
+    
+                h2 {
+                    margin-bottom: 1rem;
+                }
+    
+                p {
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    margin: 10px 0px;
+                }
+            }
+        }
+
+        .intro-image {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+
+            iframe {
+                outline: none;
+                width: 100%;
+                height: 20rem;
+            }
+        }
+    }
+
+    &-content {
+        margin: 2rem 0 5rem 0;
+    }
+}
+
+.nieuws, .cases {
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
+
+.row-intro {
+    align-items: center;
+}
+
+.spacing {
+    margin: 5rem 0;
+}
+
+
+@media (min-width: 1000px) {
+    .card-col:nth-child(even) {
+        margin-top: 4rem;
+    }
+}

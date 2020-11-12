@@ -1,0 +1,25 @@
+.page--404 {
+    height: 62vh;
+
+    .not-found-container {
+        text-align: center;
+        padding-top: 4.5rem;
+
+         h1 {
+             font-size: 10rem;
+         }
+
+         a {
+             font-size: 2.5rem;
+             text-decoration: none;
+             color: $color-white;
+             text-transform: uppercase;
+             border-bottom: solid 5px $color-blue;
+
+             &:hover {
+                 color: $color-blue;
+                 transition: .3s;
+             }
+         }
+    }
+}
